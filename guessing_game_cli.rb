@@ -15,10 +15,10 @@ end
 def user_guess_evaluation 
   rand_num = generate_random_number
   prompt_user
-  user_guess = store_guess.to_i
-  if user_guess.to_s == 'exit'
+  #user_guess = store_guess.to_i
+  if store_guess == 'exit'
     puts "Goodbye!"
-  elsif user_guess == rand_num
+  elsif store_guess == rand_num.to_s
     puts "You guessed the correct number!"
   else 
     puts "Sorry! The computer guessed #{rand_num}."
