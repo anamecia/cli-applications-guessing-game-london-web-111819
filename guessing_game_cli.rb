@@ -17,7 +17,7 @@ def user_guess_evaluation
   prompt_user
   user_guess = store_guess.to_i
   if user_guess == 'exit'
-    puts "Goodbye"
+    puts "Goodbye!"
   elsif user_guess == rand_num
     puts "You guessed the correct number!"
   else 
