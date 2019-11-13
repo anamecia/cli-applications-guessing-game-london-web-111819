@@ -30,4 +30,3 @@ end
 def run_guessing_game
   user_guess_evaluation
 end
-end
