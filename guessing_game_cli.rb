@@ -1,7 +1,7 @@
 # Code your solution here!
 
 def generate_random_number
-  rand(6) + 1   # return a random interger form 1 to 6
+  rand(6) + 1   # return a random int from 1 to 6
 end
 
 def prompt_user 
