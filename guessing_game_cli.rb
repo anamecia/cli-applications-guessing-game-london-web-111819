@@ -22,7 +22,7 @@ def user_guess_evaluation
     puts "You guessed the correct number!"
   else 
     puts "Sorry! The computer guessed #{rand_num}."
-  
+  end
 end
 
 
