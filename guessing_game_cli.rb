@@ -16,7 +16,7 @@ def user_guess_evaluation
   rand_num = generate_random_number
   prompt_user
   user_guess = store_guess.to_i
-  if user_guess == 'exit'
+  if user_guess.to_s == 'exit'
     puts "Goodbye!"
   elsif user_guess == rand_num
     puts "You guessed the correct number!"
