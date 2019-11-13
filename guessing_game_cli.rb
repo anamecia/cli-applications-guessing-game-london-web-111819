@@ -18,7 +18,7 @@ def user_guess_evaluation
   user_guess = store_guess.to_i
   if user_guess == 'exit'
     puts "Goodbye"
-  elif user_guess == rand_num
+  elsif user_guess == rand_num
     puts "You guessed the correct number!"
   else 
     puts "Sorry! The computer guessed #{rand_num}."
